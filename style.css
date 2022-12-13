@@ -8,6 +8,13 @@ li{
     list-style-type:none;
     padding-right:5%;
 }
+button{
+    background-color:#3882F6; 
+    border-radius:5px;
+    color:#F9FAF8;
+    font-family:"roboto";
+    padding: 7px 14px;
+}
 
 /*CSS for the first part of section one*/
 .section-one{
