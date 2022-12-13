@@ -1,16 +1,22 @@
 body{
     display:flex;
     flex-direction: column;
+    font-family:"roboto";
+    background-color: #1F2937;
 }
 li{
     list-style-type:none;
-    padding:10px;
+    padding-right:5%;
 }
 
 /*CSS for the first part of section one*/
 .section-one{
     display:flex;
     flex-direction: column;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    margin-left:10%;
+    margin-right:10%;
 }
 .header{
     display:flex;
@@ -19,11 +25,13 @@ li{
 .top-logo{
     display:flex;    
     flex-grow: 1;
-    justify-content: center;
+    justify-content: left;
+    size:24px;
+    font-weight: bold;
 }
 .top-links{
     display:flex;
-    justify-content: center;
+    justify-content: right;
     flex-grow: 1;
 }
 /*CSS for the second part of section one*/
@@ -35,8 +43,13 @@ li{
     display:flex;    
     flex-grow: 1;
     flex-direction: column;
+    align-self: left;
+    align-items:flex-start;
+    flex-basis:content;
 }
 .top-photo{
     display:flex;    
     flex-grow: 1;
+    align-items: right;
+    justify-content: center;
 }
