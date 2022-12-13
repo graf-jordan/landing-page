@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+li{
+    list-style-type:none;
+    padding:10px;
+}
+
+/*CSS for the first part of section one*/
+.section-one{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    display:flex;
+    align-content: top;
+}
+.top-logo{
+    display:flex;    
+    flex-grow: 1;
+    justify-content: center;
+}
+.top-links{
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+/*CSS for the second part of section one*/
+
+.top-title{
+    display:flex;
+}
+.title-sign{
+    display:flex;    
+    flex-grow: 1;
+    flex-direction: column;
+}
+.top-photo{
+    display:flex;    
+    flex-grow: 1;
+}
