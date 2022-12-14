@@ -105,8 +105,59 @@ button{
     padding-left:10%;
     padding-right:10%;
     padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 32px;
     display:flex;
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
+    justify-content: center;
+}
+
+/*CSS for part 4*/
+
+.section-four {
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+    color:#F9FAF8;
+}
+
+.signup-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 1% 4%;
+    border-radius: 10px;
+}
+
+.signup-text {
+    display:flex;
+    padding-right:3%;
+    flex-direction: column;
+}
+
+.button-end {
+    display:flex;
+    align-self: center;
+    border-color: #F9FAF8;
+    flex-wrap:nowrap;
+    width:150px;
+    justify-content: center;
+}
+
+/*CSS for footer*/
+
+.footer {
+    color:#F9FAF8;
+    display:flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
 }
