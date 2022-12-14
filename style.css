@@ -22,8 +22,9 @@ button{
     flex-direction: column;
     background-color: #1F2937;
     color:#F9FAF8;
-    margin-left:10%;
-    margin-right:10%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom: 5%;
 }
 .header{
     display:flex;
@@ -59,4 +60,20 @@ button{
     flex-grow: 1;
     align-items: right;
     justify-content: center;
+}
+
+/*CSS for part 2*/
+
+.section-two {
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom: 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.image-subtext {
+    display:flex;
 }
