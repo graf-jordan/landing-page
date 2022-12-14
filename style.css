@@ -60,6 +60,9 @@ button{
     flex-grow: 1;
     align-items: right;
     justify-content: center;
+    flex-basis: 0;
+    border: 5px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 /*CSS for part 2*/
@@ -71,7 +74,13 @@ button{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #F9FAF8;
+}
+
+.two-header {
+    padding: 1%;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .image-subtext {
@@ -82,4 +91,22 @@ button{
     display:flex;
     flex-direction: column;
     padding:2%;
+    flex-basis: 0;
+}
+
+.image-two {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+/*CSS for part 3*/
+
+.section-three {
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom: 5%;
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
 }
