@@ -1,7 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
-    font-family:"roboto";
+    font-family: 'Roboto', arial;
     background-color: #1F2937;
 }
 li{
