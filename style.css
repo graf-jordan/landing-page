@@ -42,6 +42,11 @@ button{
     justify-content: right;
     flex-grow: 1;
 }
+
+.top-links a{
+    text-decoration: none;
+    color:rgb(16, 202, 202)
+}
 /*CSS for the second part of section one*/
 
 .top-title{
@@ -160,4 +165,8 @@ button{
     margin-top: auto;
     align-items: center;
     justify-content: center;
+}
+
+.copy-info {
+    size: 8px;
 }
